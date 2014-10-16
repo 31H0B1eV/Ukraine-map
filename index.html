@@ -61,10 +61,122 @@
 <body>
 
 <div class="container-fluid">
+    <div class="row">
+        <div class="pull-right region-list">
+            <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+            Select Region
+            <span class="caret"></span>
+          </button>
+            <ul class="dropdown-menu">                
+                <li>
+                    <a id="cphContent_repRegions_hlRegion_0" title="Cherkasy region" data-key="21" href="/regions/cherkasy">Cherkasy</a>
+                </li>
+            
+                <li>
+                    <a id="cphContent_repRegions_hlRegion_1" title="Chernigiv region" data-key="23" href="/regions/chernigiv">Chernigiv</a>
+                </li>
+            
+                <li>
+                    <a id="cphContent_repRegions_hlRegion_2" title="Chernivtsi region" data-key="16" href="/regions/chernivtsi">Chernivtsi</a>
+                </li>
+            
+                <li>
+                    <a id="cphContent_repRegions_hlRegion_3" title="Crimea" data-key="32" href="/regions/crimea">Crimea</a>
+                </li>
+            
+                <li>
+                    <a id="cphContent_repRegions_hlRegion_4" title="Dnipropetrovsk region" data-key="29" href="/regions/dnipropetrovsk">Dnipropetrovsk</a>
+                </li>
+            
+                <li>
+                    <a id="cphContent_repRegions_hlRegion_5" title="Donetsk region" data-key="28" href="/regions/donetsk">Donetsk</a>
+                </li>
+            
+                <li>
+                    <a id="cphContent_repRegions_hlRegion_6" title="Ivano-Frankivsk region" data-key="15" href="/regions/ivano-frankivsk">Ivano-Frankivsk</a>
+                </li>
+            
+                <li>
+                    <a id="cphContent_repRegions_hlRegion_7" title="Kharkiv region" data-key="26" href="/regions/kharkiv">Kharkiv</a>
+                </li>
+            
+                <li>
+                    <a id="cphContent_repRegions_hlRegion_8" title="Kherson region" data-key="31" href="/regions/kherson">Kherson</a>
+                </li>
+            
+                <li>
+                    <a id="cphContent_repRegions_hlRegion_9" title="Khmelnitsky region" data-key="7" href="/regions/khmelnitsky">Khmelnitsky</a>
+                </li>
+            
+                <li>
+                    <a id="cphContent_repRegions_hlRegion_10" title="Kirovograd region" data-key="20" href="/regions/kirovograd">Kirovograd</a>
+                </li>
+            
+                <li>
+                    <a id="cphContent_repRegions_hlRegion_11" title="Kyiv region" data-key="9" href="/regions/kiev">Kyiv</a>
+                </li>
+            
+                <li>
+                    <a id="cphContent_repRegions_hlRegion_12" title="Lugansk region" data-key="27" href="/regions/lugansk">Lugansk</a>
+                </li>
+            
+                <li>
+                    <a id="cphContent_repRegions_hlRegion_13" title="Lviv region" data-key="11" href="/regions/lviv">Lviv</a>
+                </li>
+            
+                <li>
+                    <a id="cphContent_repRegions_hlRegion_14" title="Mykolaiv region" data-key="22" href="/regions/mykolaiv">Mykolaiv</a>
+                </li>
+            
+                <li>
+                    <a id="cphContent_repRegions_hlRegion_15" title="Odessa region" data-key="19" href="/regions/odessa">Odessa</a>
+                </li>
+            
+                <li>
+                    <a id="cphContent_repRegions_hlRegion_16" title="Poltava region" data-key="25" href="/regions/poltava">Poltava</a>
+                </li>
+            
+                <li>
+                    <a id="cphContent_repRegions_hlRegion_17" title="Rivne region" data-key="12" href="/regions/rivne">Rivne</a>
+                </li>
+            
+                <li>
+                    <a id="cphContent_repRegions_hlRegion_18" title="Sumy region" data-key="24" href="/regions/sumy">Sumy</a>
+                </li>
+            
+                <li>
+                    <a id="cphContent_repRegions_hlRegion_19" title="Ternopil region" data-key="14" href="/regions/ternopil">Ternopil</a>
+                </li>
+            
+                <li>
+                    <a id="cphContent_repRegions_hlRegion_20" title="Vinnytsia region" data-key="18" href="/regions/vinnytsia">Vinnytsia</a>
+                </li>
+            
+                <li>
+                    <a id="cphContent_repRegions_hlRegion_21" title="Volyn region" data-key="10" href="/regions/volyn">Volyn</a>
+                </li>
+            
+                <li>
+                    <a id="cphContent_repRegions_hlRegion_22" title="Zakarpattia region" data-key="13" href="/regions/zakarpatya">Zakarpattia</a>
+                </li>
+            
+                <li>
+                    <a id="cphContent_repRegions_hlRegion_23" title="Zaporizhya region" data-key="30" href="/regions/zaporizhya">Zaporizhya</a>
+                </li>
+            
+                <li>
+                    <a id="cphContent_repRegions_hlRegion_24" title="Zhytomyr region" data-key="17" href="/regions/zhytomyr">Zhytomyr</a>
+                </li>                
+            </ul>
+            </div>
+        </div>
+    </div>
     <div class="row top-row">
 
-        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-            <img src="http://localhost/alg/img/ukraine.png" alt="Diamond"border="0" usemap="#Map" />
+        <div class="col-lg-12 col-md-12 col-sm-7 col-xs-12">         
+
+            <img src="http://localhost/alg/img/ukraine.png" alt="Diamond"border="0" usemap="#Map" class="centered" max-width="auto" />
 
             <map name="Map" id="map">
                  <!--Volyn-->
@@ -118,113 +230,9 @@
                 <!--Zaporizhya-->
                 <area href="/regions/zaporizhya" id="cphContent_areaZaporizhya" shape="poly" coords="374,179,378,176,383,178,384,176,388,179,392,188,397,188,398,185,403,189,405,186,411,195,415,197,417,196,420,198,424,201,420,206,418,211,423,219,423,224,425,228,419,229,416,234,410,234,401,241,394,239,388,240,375,252,373,252,370,249,370,255,368,256,365,248,358,245,355,240,356,234,355,230,352,230,346,215,341,215,340,213,334,211,341,203,347,204,355,205,359,201,358,196,357,189,358,185,356,180,363,177" class="" title="Zaporizhya region" data-key="30" />
             </map>
-        </div>
-
-        <div class="col-lg-8 col-md-6 col-sm-12 col-xs-12">
-            <div class="region-list">
-                <ul class="list-group">                
-                    <li>
-                        <a id="cphContent_repRegions_hlRegion_0" title="Cherkasy region" data-key="21" href="/regions/cherkasy">Cherkasy region</a>
-                    </li>
-                
-                    <li>
-                        <a id="cphContent_repRegions_hlRegion_1" title="Chernigiv region" data-key="23" href="/regions/chernigiv">Chernigiv region</a>
-                    </li>
-                
-                    <li>
-                        <a id="cphContent_repRegions_hlRegion_2" title="Chernivtsi region" data-key="16" href="/regions/chernivtsi">Chernivtsi region</a>
-                    </li>
-                
-                    <li>
-                        <a id="cphContent_repRegions_hlRegion_3" title="Crimea" data-key="32" href="/regions/crimea">Crimea</a>
-                    </li>
-                
-                    <li>
-                        <a id="cphContent_repRegions_hlRegion_4" title="Dnipropetrovsk region" data-key="29" href="/regions/dnipropetrovsk">Dnipropetrovsk region</a>
-                    </li>
-                
-                    <li>
-                        <a id="cphContent_repRegions_hlRegion_5" title="Donetsk region" data-key="28" href="/regions/donetsk">Donetsk region</a>
-                    </li>
-                
-                    <li>
-                        <a id="cphContent_repRegions_hlRegion_6" title="Ivano-Frankivsk region" data-key="15" href="/regions/ivano-frankivsk">Ivano-Frankivsk region</a>
-                    </li>
-                
-                    <li>
-                        <a id="cphContent_repRegions_hlRegion_7" title="Kharkiv region" data-key="26" href="/regions/kharkiv">Kharkiv region</a>
-                    </li>
-                
-                    <li>
-                        <a id="cphContent_repRegions_hlRegion_8" title="Kherson region" data-key="31" href="/regions/kherson">Kherson region</a>
-                    </li>
-                
-                    <li>
-                        <a id="cphContent_repRegions_hlRegion_9" title="Khmelnitsky region" data-key="7" href="/regions/khmelnitsky">Khmelnitsky region</a>
-                    </li>
-                
-                    <li>
-                        <a id="cphContent_repRegions_hlRegion_10" title="Kirovograd region" data-key="20" href="/regions/kirovograd">Kirovograd region</a>
-                    </li>
-                
-                    <li>
-                        <a id="cphContent_repRegions_hlRegion_11" title="Kyiv region" data-key="9" href="/regions/kiev">Kyiv region</a>
-                    </li>
-                
-                    <li>
-                        <a id="cphContent_repRegions_hlRegion_12" title="Lugansk region" data-key="27" href="/regions/lugansk">Lugansk region</a>
-                    </li>
-                
-                    <li>
-                        <a id="cphContent_repRegions_hlRegion_13" title="Lviv region" data-key="11" href="/regions/lviv">Lviv region</a>
-                    </li class="list-group-item">
-                
-                    <li>
-                        <a id="cphContent_repRegions_hlRegion_14" title="Mykolaiv region" data-key="22" href="/regions/mykolaiv">Mykolaiv region</a>
-                    </li>
-                
-                    <li>
-                        <a id="cphContent_repRegions_hlRegion_15" title="Odessa region" data-key="19" href="/regions/odessa">Odessa region</a>
-                    </li>
-                
-                    <li>
-                        <a id="cphContent_repRegions_hlRegion_16" title="Poltava region" data-key="25" href="/regions/poltava">Poltava region</a>
-                    </li>
-                
-                    <li>
-                        <a id="cphContent_repRegions_hlRegion_17" title="Rivne region" data-key="12" href="/regions/rivne">Rivne region</a>
-                    </li>
-                
-                    <li>
-                        <a id="cphContent_repRegions_hlRegion_18" title="Sumy region" data-key="24" href="/regions/sumy">Sumy region</a>
-                    </li>
-                
-                    <li>
-                        <a id="cphContent_repRegions_hlRegion_19" title="Ternopil region" data-key="14" href="/regions/ternopil">Ternopil region</a>
-                    </li>
-                
-                    <li>
-                        <a id="cphContent_repRegions_hlRegion_20" title="Vinnytsia region" data-key="18" href="/regions/vinnytsia">Vinnytsia region</a>
-                    </li>
-                
-                    <li>
-                        <a id="cphContent_repRegions_hlRegion_21" title="Volyn region" data-key="10" href="/regions/volyn">Volyn region</a>
-                    </li>
-                
-                    <li>
-                        <a id="cphContent_repRegions_hlRegion_22" title="Zakarpattia region" data-key="13" href="/regions/zakarpatya">Zakarpattia region</a>
-                    </li>
-                
-                    <li>
-                        <a id="cphContent_repRegions_hlRegion_23" title="Zaporizhya region" data-key="30" href="/regions/zaporizhya">Zaporizhya region</a>
-                    </li>
-                
-                    <li>
-                        <a id="cphContent_repRegions_hlRegion_24" title="Zhytomyr region" data-key="17" href="/regions/zhytomyr">Zhytomyr region</a>
-                    </li>                
-                </ul>
-            </div>
-        </div>
+        </div>        
+    </div>
+    <div class="row">
     </div>
 </div>
 

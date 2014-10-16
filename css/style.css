@@ -14,30 +14,39 @@ img {
 .region-list {
     float: right;
     margin-top: 15px;
-    margin-right: 15px;
+    margin-right: 10%;
     display: block;
 }
 
+.centered{
+    float: none;
+    margin: 0 auto;
+}
+
+/*
 ul {
+    list-style-type: none;
     height : 510px;
     -moz-column-count: 2;
-    -moz-column-gap: 10px;
+    -moz-column-gap: 30px;
     -webkit-column-count: 2;
-    -webkit-column-gap: 10px;
+    -webkit-column-gap: 30px;
     column-count: 2;
-    column-gap: 10px;
+    column-gap: 30px;
+    position: relative;
 }
 
 li {
+    line-height: 35px;
     margin-bottom: 20px;
-}
+}*/
 
 /* image for link in main page*/
 
 #cphContent_repRegions_hlRegion_0:before {
     content: "";
     display: block;
-    background: url("http://localhost/alg/img/cherkasy.jpg?imagetype=regionflags") no-repeat;
+    background: url("http://localhost/alg/img/cherkasy.jpg") no-repeat;
     background-size:contain;
     width: 30px;
     height: 30px;
