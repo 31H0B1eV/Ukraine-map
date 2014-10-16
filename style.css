@@ -3,6 +3,10 @@
     margin-bottom: 10px;
 }
 
+body {
+    background-image: url('http://localhost/alg/img/paper.png');
+}
+
 img {
     position: absolute;
 }
