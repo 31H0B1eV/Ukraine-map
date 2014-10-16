@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ukraine</title>
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
@@ -62,6 +65,9 @@
 <!-- Main content -->
 <div class="container-fluid">
     <div class="row">
+        <div class="pull-left">
+            <h1 style="margin-left: 15px;color: #585858;">Ukraine</h1>
+        </div>
         <div class="pull-right region-list">
             <div class="dropdown">
           <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
@@ -158,10 +164,31 @@
             </map>
         </div>        
     </div>
+    <hr />
     <div class="row">
+        <blockquote>
+            <p class="text-justify">
+                &nbsp&nbspUkraine is a country in Eastern Europe. It has an area of 603,628 km2 (233,062 sq mi), making it the largest country entirely within Europe. Ukraine borders Russia to the east and northeast, Belarus to the northwest, Poland, Slovakia and Hungary to the west, Romania and Moldova to the southwest, and the Black Sea and Sea of Azov to the south and southeast, respectively.</p>
+            <p class="text-justify">
+                &nbsp&nbspIn the Middle Ages, the area became a key center of East Slavic culture, as epitomized by the powerful state of Kievan Rus'. Following its fragmentation in the 13th century, the territory of the present day Ukraine was contested, ruled and divided by a variety of powers, including Lithuania, Poland, Ottoman Empire, Austro-Hungary, and Russia. A Cossack republic emerged and prospered during the 17th and 18th centuries, but Ukraine remained otherwise divided until its consolidation into a Soviet republic in the 20th century, becoming an independent state only in 1991.</p>
+                Ukraine has long been a global breadbasket because of its extensive, fertile farmlands. In 2011, it was the world's third-largest grain exporter with that year's harvest being much larger than average. Ukraine is one of the ten most attractive agricultural land acquisition regions. The country also has a well-developed manufacturing sector, particularly in aerospace and industrial equipment.</p>
+            <p class="text-justify">
+                &nbsp&nbspUkraine is a unitary republic under a semi-presidential system with separate powers: legislative, executive, and judicial branches. Its capital and largest city is Kiev. Since the dissolution of the Soviet Union, Ukraine continues to maintain the second-largest military in Europe, after that of Russian Federation, when reserves and paramilitary personnel are taken into account. The country is home to 45.4 million people (including Crimea), 77.8% of whom are Ukrainians by ethnicity, and with a sizable minority of Russians (17%), as well as Romanians/Moldovans, Belarusians, Crimean Tatars, and Hungarians. Ukrainian is the official language of Ukraine; its alphabet is Cyrillic. Russian is also still widely spoken. The dominant religion in the country is Eastern Orthodoxy, which has strongly influenced Ukrainian architecture, literature and music.
+            </p>
+            <footer>From Wikipedia, the free encyclopedia: <cite title="Source Title">Ukraine</cite></footer>
+        </blockquote>
     </div>
 </div>
 <!-- end of Main content -->
+</div>
+    <hr />
+<div class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container">
+     <p class="pull-left"><small><a href="#">Terms & Conditions</a> <br /> <a href="#">Privacy Policy</a></small></p>
+     <p class="pull-right"><small><strong>© 2014-2015</strong> <br /> Created by: <em><a href="#">Artem Zinoviev</a></em></small></p>
+
+    </div> <!-- container-->
+</div> <!-- navbar navbar-default navbar-fixed-bottom" --> 
 
     <!-- Bootstrap Core JavaScript -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
