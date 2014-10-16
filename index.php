@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
@@ -22,44 +22,6 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-    <!-- Include jquery in <head> for map hilight -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script type="text/javascript" src="js/jquery.maphilight.js"></script>
-    <script type="text/javascript">
-        
-        $(function () {
-            $("img[usemap]").maphilight({
-                fill: true,
-                fillColor: '00ff00', //00A2CE
-                fillOpacity: 0.3,
-                stroke: true,
-                strokeColor: '330066',
-                strokeOpacity: 0.8,
-                strokeWidth: 1
-            });
-
-            //$("#ukraineMap area").tooltip();
-
-            $("#map area").mouseover(function (e) {
-                $('#mapTootTip').html($(this).attr("title"));
-                $('#mapTootTip').show();
-            });
-
-            $("#map area").mouseout(function () {
-                $('#mapTootTip').hide();
-            });
-
-            $(".region-list ul li a ").mouseover(function (e) {
-                var areaElement = $("#map area[data-key=" + $(this).attr("data-key") + "]");
-                areaElement.mouseover();
-
-            }).mouseout(function () {
-                var areaElement = $("#map area[data-key=" + $(this).attr("data-key") + "]");
-                areaElement.mouseout();
-            });
-        });
-    </script>
 </head>
 <body>
 <!-- Main content -->
@@ -190,6 +152,43 @@
     </div> <!-- container-->
 </div> <!-- navbar navbar-default navbar-fixed-bottom" --> 
 
+    <!-- Include jquery in <head> for map hilight -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.maphilight.js"></script>
+    <script type="text/javascript">
+        
+        $(function () {
+            $("img[usemap]").maphilight({
+                fill: true,
+                fillColor: '00ff00', //00A2CE
+                fillOpacity: 0.3,
+                stroke: true,
+                strokeColor: '330066',
+                strokeOpacity: 0.8,
+                strokeWidth: 1
+            });
+
+            //$("#ukraineMap area").tooltip();
+
+            $("#map area").mouseover(function (e) {
+                $('#mapTootTip').html($(this).attr("title"));
+                $('#mapTootTip').show();
+            });
+
+            $("#map area").mouseout(function () {
+                $('#mapTootTip').hide();
+            });
+
+            $(".region-list ul li a ").mouseover(function (e) {
+                var areaElement = $("#map area[data-key=" + $(this).attr("data-key") + "]");
+                areaElement.mouseover();
+
+            }).mouseout(function () {
+                var areaElement = $("#map area[data-key=" + $(this).attr("data-key") + "]");
+                areaElement.mouseout();
+            });
+        });
+    </script>
     <!-- Bootstrap Core JavaScript -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </body>
