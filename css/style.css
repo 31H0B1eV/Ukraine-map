@@ -23,24 +23,6 @@ img {
     margin: 0 auto;
 }
 
-/*
-ul {
-    list-style-type: none;
-    height : 510px;
-    -moz-column-count: 2;
-    -moz-column-gap: 30px;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 30px;
-    column-count: 2;
-    column-gap: 30px;
-    position: relative;
-}
-
-li {
-    line-height: 35px;
-    margin-bottom: 20px;
-}*/
-
 /* image for link in main page*/
 
 #cphContent_repRegions_hlRegion_0:before {
