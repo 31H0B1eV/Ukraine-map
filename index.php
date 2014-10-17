@@ -147,7 +147,7 @@
 <div class="navbar navbar-default navbar-fixed-bottom">
     <div class="container">
      <p class="pull-left"><small><a href="#">Terms & Conditions</a> <br /> <a href="#">Privacy Policy</a></small></p>
-     <p class="pull-right"><small><strong>© 2014-2015</strong> <br /> Created by: <em><a href="#">Artem Zinoviev</a></em></small></p>
+     <p class="pull-right"><small><strong>© 2014-2015</strong> <br /> Created by: <em><a href="https://twitter.com/artemzinoviev" target="_blank">Artem Zinoviev</a></em></small></p>
 
     </div> <!-- container-->
 </div> <!-- navbar navbar-default navbar-fixed-bottom" --> 
@@ -155,8 +155,7 @@
     <!-- Include jquery in <head> for map hilight -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="js/jquery.maphilight.js"></script>
-    <script type="text/javascript">
-        
+    <script type="text/javascript">        
         $(function () {
             $("img[usemap]").maphilight({
                 fill: true,
